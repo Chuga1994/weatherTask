@@ -83,6 +83,14 @@
                             <constraint firstItem="FKL-V4-neE" firstAttribute="firstBaseline" secondItem="wpW-MR-a8T" secondAttribute="baseline" constant="24.5" symbolType="layoutAnchor" id="lJd-4L-5KV"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="backgroundView" destination="Okb-mI-FP2" id="iBz-e4-Quq"/>
+                        <outlet property="conditionImageView" destination="wpW-MR-a8T" id="H6T-S8-DEq"/>
+                        <outlet property="conditionLabel" destination="FKL-V4-neE" id="ztC-iA-BFe"/>
+                        <outlet property="dayLabel" destination="aym-ag-1Ry" id="iv2-Zj-MMx"/>
+                        <outlet property="locationLabel" destination="FVf-BE-pte" id="VMW-Zm-Gta"/>
+                        <outlet property="temperatureLabel" destination="GUZ-96-F6s" id="qHt-eX-ccc"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
